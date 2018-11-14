@@ -13,7 +13,7 @@ public class Md5Util {
 	
 	@Value("${salt}")
 	private String salt;
-
+	¹þ¹þ¹þ
 	public String md5(String data) {
 		data = data + salt;
 		try {
